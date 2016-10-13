@@ -4,8 +4,9 @@ rr.innerHTML="kk";
 var mad = document.getElementById("madi");
 var margin = 0;
 function moveright() {
-    margin =margin+5;
-    mad.style.marginLeft= margin+"px";
+    while(margin<300)
+    {margin =margin+5;
+    mad.style.marginLeft= margin+"px";}
     
 }
 
