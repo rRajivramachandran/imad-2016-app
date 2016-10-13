@@ -8,7 +8,10 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {  
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-app.get('/article-one',function(req,res){
+app.get('/article-one',function(req,res){var nam=query("enter name");
+    console.log(nam);
+    
+    
     res.sendFile(path.join(__dirname, 'ui','article-one.html'));
     var nam=query("enter name");
     console.log(nam);
