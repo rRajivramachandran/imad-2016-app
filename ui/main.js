@@ -4,7 +4,7 @@ rr.innerHTML="kk";
 var mad = document.getElementById("madi");
 var margin = 0;
 function moveright() {
-    margin =margin+10;
+    margin =margin+5;
     mad.style.marginLeft= margin+"px";
     
 }
@@ -13,4 +13,4 @@ function moveright() {
     
 
 mad.onclick= function() {
-var intra= setInterval(moveright,100);};
+var intra= setInterval(moveright,10);};
