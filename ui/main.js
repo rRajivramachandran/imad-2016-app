@@ -13,4 +13,4 @@ function moveright() {
     
 
 mad.onclick= function() {
-var intra= setIntreval(moveright,100);};
+var intra= setInterval(moveright,100);};
