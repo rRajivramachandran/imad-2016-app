@@ -5,8 +5,8 @@ var mad = document.getElementById("madi");
 var margin = 0;
 function moveright() {
     while(margin<300)
-    {margin =margin+5;
-    mad.style.marginLeft= margin+"px";}
+    margin =margin+5;
+    mad.style.marginLeft= margin+"px";
     
 }
 
