@@ -13,7 +13,7 @@ app.get('/article-one',function(req,res){var nam=prompt("enter name");
     
     
     //res.sendFile(path.join(__dirname, 'ui','article-one.html'));
-    res.send(nam.toString());
+    res.send(nam);
     
     
 });
