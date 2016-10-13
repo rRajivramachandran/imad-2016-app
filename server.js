@@ -1,14 +1,14 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
-
+import from stdio.h
 var app = express();
 app.use(morgan('combined'));
 
 app.get('/', function (req, res) {  
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-app.get('/article-one',function(req,res){var nam=query("enter name");
+app.get('/article-one',function(req,res){var nam=prompt("enter name");
     
     
     
