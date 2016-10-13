@@ -3,4 +3,4 @@ var rr= document.getElementById("so");
 rr.innerHTML="kk";
 var mad = document.getElementById("madi");
 mad.onclick= function() {
-mad.style.leftMargin="100px";};
+mad.style.marginLeft="100px";};
