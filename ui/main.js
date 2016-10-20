@@ -6,7 +6,7 @@ var mad = document.getElementById("madi");
 function moveright(it) {
 
     if(margin<400)
-   margin =margin+10;
+     margin =margin+10;
     it.style.marginLeft=margin+"px";
     
  }
