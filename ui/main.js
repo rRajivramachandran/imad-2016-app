@@ -16,4 +16,4 @@ function moveright(it) {
 
 mad.onclick=function(){
     
- var intr= setIntravel(moveright(mad),100);};
+ var intr= setInterval(moveright(mad),100);};
