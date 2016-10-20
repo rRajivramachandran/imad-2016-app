@@ -14,4 +14,6 @@ function moveright(it) {
 
     
 
-mad.onclick= moveright(mad);
+mad.onclick=function(){
+    
+ moveright(mad);};
