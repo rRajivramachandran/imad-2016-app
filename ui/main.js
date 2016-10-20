@@ -2,9 +2,9 @@ console.log('Loaded!');
 var rr= document.getElementById("so");
 rr.innerHTML="kk";
 var mad = document.getElementById("madi");
-
+ var margin = 0;
 function moveright(it) {
-    var margin = 0;
+
     if(margin<400)
    {margin =margin+10;
     it.style.marginLeft=margin+"px";}
