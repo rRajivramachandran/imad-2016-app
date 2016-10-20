@@ -1,5 +1,6 @@
-console.log('Loaded!');
+/*console.log('Loaded!');
 var rr= document.getElementById("so");
+var counter=0;
 rr.innerHTML="kk";
 var mad = document.getElementById("madi");
  var margin = 0;
@@ -9,11 +10,13 @@ function moveright(it) {
      margin =margin+10;
     it.style.marginLeft=margin+"px";
     
- }
+ }*/
+
+
+  var counter=0;  
 
 
     
-
-mad.onclick=function(){
-    
- var interval= setInterval(moveright(mad),100);};
+ 
+ hi.onclick=function(){ counter=counter+1;};
+ h.innerHTML=counter;
