@@ -6,7 +6,7 @@ var mad = document.getElementById("madi");
 function moveright(it) {
     var margin = 0;
     if(margin<300)
-    margin =margin+5;
+   margin =margin+10;
     it.style.marginLeft= margin+"px";
     
 }
@@ -14,5 +14,4 @@ function moveright(it) {
 
     
 
-mad.onclick= function() {
-var intra= setInterval(moveright(mad),10);};
+mad.onclick= moveright(mad);
