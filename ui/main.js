@@ -5,7 +5,7 @@ var mad = document.getElementById("madi");
 
 function moveright(it) {
     var margin = 0;
-    while(margin<300)
+    if(margin<300)
    {margin =margin+10;
     it.style.marginLeft=margin+"px";}
     
@@ -16,4 +16,4 @@ function moveright(it) {
 
 mad.onclick=function(){
     
- moveright(mad);};
+ var intr= setintravel(moveright(mad),100);};
