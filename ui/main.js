@@ -9,7 +9,7 @@ function moveright(it) {
    {margin =margin+10;
     it.style.marginLeft= margin+"px";}
     
-}
+};
 
 
     
