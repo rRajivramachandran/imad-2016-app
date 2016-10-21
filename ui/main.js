@@ -17,6 +17,6 @@ function moveright(it) {
 
 
     
- 
+ var hi=getElementByid('hi');
  hi.onclick=function(){ counter=counter+1;
  h.innerHTML=counter.toString();}
