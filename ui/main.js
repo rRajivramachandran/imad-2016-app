@@ -25,6 +25,8 @@ var hw=document.getElementById("h");
  var k=j.value;
  var d="<ol><li>"+ k +"<li>+<ol>";
  var t= doument.getElementById("tt");
- t.onclick()=function(){
+ t.onclick= function(){
+     var e=document.getElementById("old");
+     old.innerHTML=JSON.stringify(d);
      
- }
+ };
