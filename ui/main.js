@@ -17,7 +17,7 @@ function moveright(it) {
 
 
     
- var hi=getElementById("hi");
- hi.onclick=function(){ count=count+1;
-var h=getElementById("h");
- h.innerHTML=counter.toString();};
+ var qw=getElementById("hi");
+ qw.onclick=function(){ count=count+1;
+var hr=getElementById("h");
+ hr.innerHTML=counter.toString();};
