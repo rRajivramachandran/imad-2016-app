@@ -13,11 +13,11 @@ function moveright(it) {
  }*/
 
 
-  var counter=0;  
+    
 
 
     
  var hi=getElementById('hi');
- hi.onclick=function(){ counter=counter+1;
+ hi.onclick=function(){ count=count+1;
 var h=getElementById('h');
  h.innerHTML=counter.toString();};
