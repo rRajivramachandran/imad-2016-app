@@ -19,4 +19,5 @@ function moveright(it) {
     
  var hi=getElementById('hi');
  hi.onclick=function(){ counter=counter+1;
+var h=getElementById('h');
  h.innerHTML=counter.toString();};
