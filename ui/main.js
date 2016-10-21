@@ -23,4 +23,8 @@ var hw=document.getElementById("h");
  hw.innerHTML=count.toString();};
  var j=doument.getElementById("name");
  var k=j.value;
- 
+ var d="<ol><li>"+ k +"<li>+<ol>";
+ var t= doument.getElementById("tt");
+ t.onclick()=function(){
+     
+ }
