@@ -20,4 +20,4 @@ function moveright(it) {
  var qw=document.getElementById("hi");
  qw.onclick=function(){ count=count+1;
 var hw=document.getElementById("h");
- hw.innerHTML=counter.toString();};
+ hw.innerHTML=count.toString();};
