@@ -18,5 +18,5 @@ function moveright(it) {
 
     
  
- hi.onclick=function(){ counter=counter+1;};
- h.innerHTML=counter.toString();
+ hi.onclick=function(){ counter=counter+1;
+ hi.innerHTML=counter.toString();}
