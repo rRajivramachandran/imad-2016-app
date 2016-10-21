@@ -19,4 +19,4 @@ function moveright(it) {
     
  
  hi.onclick=function(){ counter=counter+1;
- hi.innerHTML=counter.toString();}
+ h.innerHTML=counter.toString();}
