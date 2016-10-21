@@ -19,4 +19,4 @@ function moveright(it) {
     
  var hi=getElementById('hi');
  hi.onclick=function(){ counter=counter+1;
- h.innerHTML=counter.toString();}
+ h.innerHTML=counter.toString();};
