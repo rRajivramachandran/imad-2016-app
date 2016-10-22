@@ -21,7 +21,7 @@ var count=0;
  qw.onclick=function(){ count=count+1;
 var hw=document.getElementById("h");
  hw.innerHTML=count.toString();};
- var j=doument.getElementById("name");
+ var j=document.getElementById("name");
  var k=j.value;
  var d= k;
  var t= doument.getElementById("tt");
