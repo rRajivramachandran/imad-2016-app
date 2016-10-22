@@ -28,5 +28,6 @@ var hw=document.getElementById("h");
  t.onclick= function(){
      var e=document.getElementById("old");
      e.innerHTML=d.toString();
+     console.log(d);
      
  };
