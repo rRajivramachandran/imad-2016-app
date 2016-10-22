@@ -27,6 +27,6 @@ var hw=document.getElementById("h");
  var t= doument.getElementById("tt");
  t.onclick= function(){
      var e=document.getElementById("old");
-     old.innerHTML=JSON.stringify(d);
+     old.innerHTML=d.toString();
      
  };
